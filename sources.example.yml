@@ -1,0 +1,15 @@
+sources:
+  - name: milo
+    url: https://www.hotel-seven.at/speisekarte-mittagsmenues/
+    kind: html
+    parser: hotel_seven_milo
+
+  - name: chickis
+    url: https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/
+    kind: html
+    parser: chickis
+
+  - name: cotidiano_pdf_example
+    url: https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf
+    kind: pdf
+    restaurant: Cotidiano Villach Hauptplatz (PDF example)
