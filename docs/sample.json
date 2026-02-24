@@ -1,0 +1,11 @@
+[
+  {
+    "day": "2026-02-24",
+    "source": "Restaurant Milo (Hotel Seven)",
+    "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+    "items": [
+      {"name": "(exemple) Curry de poulet — riz", "tags": ["curry"], "allergens": []},
+      {"name": "(exemple) Schnitzel — sauce crème", "tags": [], "allergens": ["G"]}
+    ]
+  }
+]

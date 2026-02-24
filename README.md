@@ -72,3 +72,8 @@ Ce prototype détecte:
 - un moteur de règles par restaurant (YAML -> regex)
 - meilleure segmentation entrée/plat/dessert
 - déduplication et gestion des semaines (lundi..vendredi)
+
+## Front-end (GitHub Pages)
+
+Après activation de GitHub Pages (branch `main`, dossier `/docs`), le front-end est servi ici :
+`https://higginsthebot-0126.github.io/villach-lunch-crawler/`
