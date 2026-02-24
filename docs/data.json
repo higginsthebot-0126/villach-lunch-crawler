@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T12:44:28+00:00",
+  "generatedAt": "2026-02-24T15:33:19+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -42,6 +42,18 @@
       "zone": "zentrum",
       "url_menu": "https://villach.vocohotels.com/data/Speisekarte_Lagana_ab120122_DE_.pdf",
       "source": "pdf"
+    },
+    {
+      "name": "Hotel Kramer / Der Stadtwirt",
+      "zone": "zentrum",
+      "url_menu": "https://www.stadtwirt-villach.at/images/pdf/speisekarte/Speisenkarte-2026.pdf",
+      "source": "pdf"
+    },
+    {
+      "name": "Villacher Brauhof",
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "website"
     },
     {
       "name": "Villacher Paragraf",
@@ -148,6 +160,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -161,6 +174,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -174,6 +188,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -187,6 +202,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -211,6 +227,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -224,6 +241,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -235,6 +253,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -248,6 +267,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -272,6 +292,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -283,6 +304,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -300,6 +322,7 @@
           ],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -324,6 +347,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -337,6 +361,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -348,6 +373,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -361,6 +387,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -385,6 +412,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -398,6 +426,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -409,6 +438,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -420,6 +450,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -430,10 +461,11 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.7,
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
             "flags": [
-              "short"
+              "section_header"
             ]
           }
         },
@@ -444,6 +476,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -457,6 +490,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -470,6 +504,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -481,6 +516,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -492,6 +528,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -505,6 +542,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -518,6 +556,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -529,6 +568,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -540,6 +580,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -551,6 +592,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -562,6 +604,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -573,6 +616,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -586,6 +630,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -599,6 +644,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -612,6 +658,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -623,6 +670,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -636,6 +684,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -647,6 +696,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -660,7 +710,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -673,6 +724,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -684,6 +736,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:reservierung"
@@ -697,6 +750,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -709,10 +763,11 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.7,
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
             "flags": [
-              "short"
+              "connector"
             ]
           }
         },
@@ -723,6 +778,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -733,9 +789,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -744,9 +803,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -756,6 +818,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -768,9 +831,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -780,6 +846,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -792,9 +859,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -804,6 +874,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -815,6 +886,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -828,6 +900,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_email"
@@ -841,6 +914,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:öffnungszeiten"
@@ -854,7 +928,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -866,9 +941,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -878,6 +956,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:telefon"
@@ -891,6 +970,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -904,6 +984,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -915,7 +996,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -927,9 +1009,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -939,7 +1024,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -951,9 +1037,12 @@
           "allergens": [],
           "tags": [],
           "qc": {
-            "isNoise": false,
-            "confidence": 0.9,
-            "flags": []
+            "isNoise": true,
+            "isMeal": false,
+            "confidence": 0.15,
+            "flags": [
+              "opening_hours"
+            ]
           }
         },
         {
@@ -963,7 +1052,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -976,6 +1066,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -987,9 +1078,11 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
-              "stopword:newsletter"
+              "stopword:newsletter",
+              "marketing_or_disclaimer"
             ]
           }
         },
@@ -1000,6 +1093,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1011,9 +1105,11 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
-              "stopword:newsletter"
+              "stopword:newsletter",
+              "marketing_or_disclaimer"
             ]
           }
         },
@@ -1024,6 +1120,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1037,6 +1134,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1050,7 +1148,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1063,6 +1162,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1076,6 +1176,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1089,6 +1190,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1102,6 +1204,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1113,6 +1216,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:datenschutz"
@@ -1126,6 +1230,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1137,6 +1242,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1150,6 +1256,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1161,6 +1268,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1174,6 +1282,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1187,6 +1296,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1198,6 +1308,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1209,6 +1320,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1220,6 +1332,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1231,6 +1344,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1242,6 +1356,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1253,6 +1368,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1264,6 +1380,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:kontakt"
@@ -1277,6 +1394,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_email"
@@ -1290,6 +1408,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -1303,6 +1422,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1314,6 +1434,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:facebook"
@@ -1327,6 +1448,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1340,6 +1462,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:adresse"
@@ -1353,6 +1476,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "copyright"
@@ -1366,6 +1490,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:kontakt"
@@ -1379,6 +1504,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:impressum"
@@ -1392,6 +1518,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:datenschutz"
@@ -1405,7 +1532,8 @@
           "tags": [],
           "qc": {
             "isNoise": true,
-            "confidence": 0.2,
+            "isMeal": true,
+            "confidence": 0.15,
             "flags": [
               "ui_fragment"
             ]
@@ -1418,6 +1546,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:cookie"
@@ -1431,6 +1560,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:datenschutz"
@@ -1457,6 +1587,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1468,6 +1599,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1492,6 +1624,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1503,6 +1636,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1514,6 +1648,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1527,6 +1662,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1538,6 +1674,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1562,6 +1699,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1573,6 +1711,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1599,6 +1738,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1614,6 +1754,7 @@
           ],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1625,6 +1766,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1636,6 +1778,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:telefon"
@@ -1649,6 +1792,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -1662,6 +1806,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1675,6 +1820,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1686,6 +1832,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1697,6 +1844,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1708,6 +1856,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1721,6 +1870,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1734,6 +1884,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1747,6 +1898,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1758,6 +1910,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1771,6 +1924,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1784,6 +1938,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1795,6 +1950,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -1808,6 +1964,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1821,6 +1978,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1832,6 +1990,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1845,6 +2004,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "has_phone"
@@ -1858,6 +2018,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:öffnungszeiten"
@@ -1871,6 +2032,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1884,6 +2046,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1895,6 +2058,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1908,7 +2072,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1921,7 +2086,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1934,7 +2100,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1947,7 +2114,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1960,7 +2128,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -1973,6 +2142,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -1986,6 +2156,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.9,
             "flags": []
           }
@@ -1997,6 +2168,7 @@
           "tags": [],
           "qc": {
             "isNoise": false,
+            "isMeal": true,
             "confidence": 0.7,
             "flags": [
               "short"
@@ -2010,7 +2182,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -2023,7 +2196,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -2036,7 +2210,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -2049,7 +2224,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -2062,7 +2238,8 @@
           "tags": [],
           "qc": {
             "isNoise": false,
-            "confidence": 0.7,
+            "isMeal": false,
+            "confidence": 0.6,
             "flags": [
               "short"
             ]
@@ -2075,6 +2252,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "copyright"
@@ -2088,6 +2266,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:impressum"
@@ -2101,6 +2280,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:datenschutz"
@@ -2114,7 +2294,8 @@
           "tags": [],
           "qc": {
             "isNoise": true,
-            "confidence": 0.2,
+            "isMeal": true,
+            "confidence": 0.15,
             "flags": [
               "ui_fragment"
             ]
@@ -2127,6 +2308,7 @@
           "tags": [],
           "qc": {
             "isNoise": true,
+            "isMeal": false,
             "confidence": 0.05,
             "flags": [
               "stopword:cookie"
@@ -2158,19 +2340,351 @@
           ],
           "qc": {
             "isNoise": false,
+            "isMeal": false,
             "confidence": 0.9,
-            "flags": []
+            "flags": [
+              "permanent_menu"
+            ]
           }
         }
       ],
       "meta": {
-        "note": "pdf parser placeholder",
+        "note": "pdf parser fallback",
         "permanent": "true"
       },
       "zone": "zentrum",
       "url_menu": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf",
       "source": "Cotidiano Villach Hauptplatz",
       "url": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf"
+    },
+    {
+      "restaurant": "Villacher Brauhof",
+      "source_url": "https://www.villacherbrauhof.at/wp-content/uploads/2026/02/Villacher-Brauhof-Mittagsmenue-23.02.-27.02.2026.pdf",
+      "day": "2026-02-23",
+      "day_label": "Montag",
+      "items": [
+        {
+          "text": "Gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Gemüsecremesuppe",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Heringssalat mit ofenfrischem Gebäck",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Überbackene Spinatknödel mit brauner Butter",
+          "course": null,
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "Villacher Brauhof",
+      "url": "https://www.villacherbrauhof.at/speisekarten/"
+    },
+    {
+      "restaurant": "Villacher Brauhof",
+      "source_url": "https://www.villacherbrauhof.at/wp-content/uploads/2026/02/Villacher-Brauhof-Mittagsmenue-23.02.-27.02.2026.pdf",
+      "day": "2026-02-24",
+      "day_label": "Dienstag",
+      "items": [
+        {
+          "text": "Gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Kräftige Rindssuppe mit Grießnockerl",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Pulled Pork Burger mit Kartoffeldukaten",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Weichsel-Topfenknödel mit Butterbrösel",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "Villacher Brauhof",
+      "url": "https://www.villacherbrauhof.at/speisekarten/"
+    },
+    {
+      "restaurant": "Villacher Brauhof",
+      "source_url": "https://www.villacherbrauhof.at/wp-content/uploads/2026/02/Villacher-Brauhof-Mittagsmenue-23.02.-27.02.2026.pdf",
+      "day": "2026-02-25",
+      "day_label": "Mittwoch",
+      "items": [
+        {
+          "text": "Gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Karottencremesuppe",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Wildnudel mit Rotkraut",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Ciabatta Margherita mit Salatgarnitur und Cocktailsauce",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "Villacher Brauhof",
+      "url": "https://www.villacherbrauhof.at/speisekarten/"
+    },
+    {
+      "restaurant": "Villacher Brauhof",
+      "source_url": "https://www.villacherbrauhof.at/wp-content/uploads/2026/02/Villacher-Brauhof-Mittagsmenue-23.02.-27.02.2026.pdf",
+      "day": "2026-02-26",
+      "day_label": "Donnerstag",
+      "items": [
+        {
+          "text": "Gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Tirolerknödelsuppe",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Gedünstetes Rindsschnitzel mit Zwiebelsauce und Hörnchennudel",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Gemüselasagne mit Tomatensauce und frisch geriebenem Grana Padano",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "Villacher Brauhof",
+      "url": "https://www.villacherbrauhof.at/speisekarten/"
+    },
+    {
+      "restaurant": "Villacher Brauhof",
+      "source_url": "https://www.villacherbrauhof.at/wp-content/uploads/2026/02/Villacher-Brauhof-Mittagsmenue-23.02.-27.02.2026.pdf",
+      "day": "2026-02-27",
+      "day_label": "Freitag",
+      "items": [
+        {
+          "text": "Gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Alt-Wiener Kartoffelsuppe",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        },
+        {
+          "text": "Gebackene Zanderstreifen auf Blattsalat",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.9,
+            "flags": []
+          }
+        },
+        {
+          "text": "Krautfleckerl",
+          "course": null,
+          "allergens": [],
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "isMeal": true,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacherbrauhof.at/speisekarten/",
+      "source": "Villacher Brauhof",
+      "url": "https://www.villacherbrauhof.at/speisekarten/"
     }
   ],
   "errors": []

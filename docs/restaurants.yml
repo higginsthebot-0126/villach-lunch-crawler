@@ -54,6 +54,21 @@ restaurants:
     url_menu: https://villach.vocohotels.com/data/Speisekarte_Lagana_ab120122_DE_.pdf
     source: pdf
 
+  - name: Hotel Kramer / Der Stadtwirt
+    zone: zentrum
+    # Stadtwirt is the restaurant inside/next to Hotel Kramer. Official menu PDF download.
+    url_menu: https://www.stadtwirt-villach.at/images/pdf/speisekarte/Speisenkarte-2026.pdf
+    source: pdf
+
+  - name: Villacher Brauhof
+    zone: zentrum-gare
+    url_menu: https://www.villacherbrauhof.at/speisekarten/
+    source: website
+    crawl:
+      kind: html
+      url: https://www.villacherbrauhof.at/speisekarten/
+      parser: villacher_brauhof
+
   - name: Villacher Paragraf
     zone: zentrum-gare
     url_menu: https://www.villacher-paragraf.at/kulinarik/

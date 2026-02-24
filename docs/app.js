@@ -87,16 +87,31 @@ function matchesFilters(menu, item){
   const zoneSel = $('#zone')?.value || 'all';
   const onlyCurry = $('#onlyCurry')?.checked || false;
   const avoidLactose = $('#avoidLactose')?.checked || false;
+  const strictMeals = $('#strictMeals')?.checked ?? true;
+  const showPermanent = $('#showPermanent')?.checked || false;
   const showNoise = $('#showNoise')?.checked || false;
 
   const zone = menu.zone || menu.meta?.zone || null;
   if (zoneSel !== 'all' && zone !== zoneSel) return false;
 
   const qc = item.qc || null;
+
+  // Noise filtering (cookie banners, headers, prices, separators, etc.)
   if (!showNoise && qc && qc.isNoise) return false;
 
+  // Strict mode: keep only items that look like actual dishes.
+  if (strictMeals){
+    if (qc && qc.isMeal === false) return false;
+    if (qc && typeof qc.confidence === 'number' && qc.confidence < 0.5) return false;
+  }
+
+  // Permanent menus (fixed à-la-carte PDFs) are excluded by default.
+  const tags0 = (item.tags || []).map(String);
+  const permanent = tags0.includes('permanent') || (qc?.flags || []).includes('permanent_menu');
+  if (!showPermanent && permanent) return false;
+
   const name = item.name || item.text || String(item);
-  const tags = (item.tags || []).map(String);
+  const tags = tags0;
   const allergens = (item.allergens || item.allergenes || []);
   const lactoseRisk = item.lactoseRisk || (Array.isArray(allergens) && allergens.includes('G'));
   const curry = tags.includes('curry') || /curry/i.test(name);
@@ -272,7 +287,7 @@ async function load(){
 }
 
 $('#reload')?.addEventListener('click', load);
-['daySelect','zone','onlyCurry','avoidLactose','showNoise'].forEach(id => {
+['daySelect','zone','onlyCurry','avoidLactose','strictMeals','showPermanent','showNoise'].forEach(id => {
   const el = document.getElementById(id);
   if (el) el.addEventListener('change', rerender);
 });

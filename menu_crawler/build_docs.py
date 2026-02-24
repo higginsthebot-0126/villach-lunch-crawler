@@ -46,16 +46,25 @@ _QC_STOPWORDS = [
 
 
 def qc_item_text(text: str) -> Dict[str, Any]:
-    """Heuristics to mark likely non-menu 'noise' items.
+    """Heuristics to mark likely non-meal 'noise' items.
+
+    The goal is to suppress:
+    - navigation/legal/cookies/footer noise
+    - marketing blurbs (newsletter, slogans)
+    - structural headers ("MITTAGSMENÜ", "TAGESGERICHTE", etc.)
+    - separators ("***"), connectors ("oder")
+    - pure price / opening-hours fragments
 
     Returns a dict meant to be embedded under item['qc'].
     """
+    import re
+
     t = (text or "").strip()
     tl = t.lower()
     flags: List[str] = []
 
     if not t:
-        return {"isNoise": True, "confidence": 0.0, "flags": ["empty"]}
+        return {"isNoise": True, "isMeal": False, "confidence": 0.0, "flags": ["empty"]}
 
     # Strong signals
     if "http://" in tl or "https://" in tl or "www." in tl:
@@ -72,33 +81,76 @@ def qc_item_text(text: str) -> Dict[str, Any]:
             break
 
     # phone-like (very rough)
-    import re
-
     if re.search(r"\b\+?\d{2,4}\s*\(?\d{1,4}\)?[\s\-/]*\d{2,}\b", t):
         flags.append("has_phone")
 
+    # Known non-dish tokens / separators
+    if t.strip("*") == "" or t.strip() == "***":
+        flags.append("separator")
+    if tl in {"oder", "und", "inkl.", "inkl", "w/", "mit"}:
+        flags.append("connector")
+
+    # Weekday-only headers commonly found in PDFs
+    if re.fullmatch(r"(montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag)", tl):
+        flags.append("weekday_header")
+
+    # Date range / time / availability fragments
+    if re.search(r"\b\d{1,2}\.\d{1,2}\.\d{4}\b\s*[-–]\s*\b\d{1,2}\.\d{1,2}\.\d{4}\b", t):
+        flags.append("date_range")
+    if re.search(r"\b\d{1,2}:\d{2}\b", t) and ("uhr" in tl or "von" in tl or "bis" in tl):
+        flags.append("opening_hours")
+    if "solange" in tl and "vorrat" in tl:
+        flags.append("availability")
+
+    # Price-only / mostly-price lines
+    if re.fullmatch(r"€\s*\d{1,3}([\.,]\d{1,2})?", t) or re.fullmatch(r"\d{1,3}([\.,]\d{1,2})?\s*€", t):
+        flags.append("price_only")
+
+    # Menu / section headers
+    if re.search(r"\b(mittagsmen[üu]|tagesgerichte|tagesgericht|wochenmen[üu]|speisekarte|menu)\b", tl) and len(t) <= 20:
+        flags.append("section_header")
+
+    # Marketing / legal disclaimers often appended in PDFs
+    if any(p in tl for p in [
+        "newsletter",
+        "postfach",
+        "anmelden",
+        "pro\u00a0st",
+        "prost",
+        "gerne informieren",
+        "allergene",
+        "mitarbeiter",
+        "\u00e4nderungen vorbehalten",
+        "guten appetit",
+    ]):
+        flags.append("marketing_or_disclaimer")
+
     # Very short generic UI fragments
     words = [p for p in re.split(r"\s+", tl) if p]
-    if len(words) <= 2 and any(w in ("mehr", "weiter", "login", "menü", "menu") for w in words):
+    if len(words) <= 2 and any(w in ("mehr", "weiter", "login", "men\u00fc", "menu", "download") for w in words):
         flags.append("ui_fragment")
 
-    # Determine noise + confidence
     strong = any(f in flags for f in ("has_url", "has_email", "copyright", "has_phone"))
+    structural = any(f in flags for f in ("separator", "connector", "weekday_header", "date_range", "opening_hours", "price_only", "section_header"))
     has_stopword = any(f.startswith("stopword:") for f in flags)
 
-    is_noise = strong or has_stopword or ("ui_fragment" in flags)
+    is_noise = strong or has_stopword or structural or ("ui_fragment" in flags) or ("marketing_or_disclaimer" in flags)
+
+    # Determine "meal-ness" (coarse): must contain letters, and not look like a header.
+    has_letters = bool(re.search(r"[A-Za-z\u00c0-\u017f]", t))
+    looks_like_header = any(f in flags for f in ("section_header", "weekday_header")) or t.endswith(":")
+    is_meal = has_letters and not looks_like_header and not structural and not strong and not has_stopword and len(t) >= 4
 
     # Confidence expresses "looks like a real dish" (1.0) vs noise (0.0)
     if is_noise:
-        conf = 0.05 if (strong or has_stopword) else 0.2
+        conf = 0.05 if (strong or has_stopword) else 0.15
     else:
-        conf = 0.9
-        # slight downgrade if ultra-short and no food-ish punctuation
+        conf = 0.9 if is_meal else 0.6
         if len(words) <= 2:
-            conf = 0.7
+            conf = min(conf, 0.7)
             flags.append("short")
 
-    return {"isNoise": bool(is_noise), "confidence": float(conf), "flags": flags}
+    return {"isNoise": bool(is_noise), "isMeal": bool(is_meal), "confidence": float(conf), "flags": flags}
 
 
 def apply_qc(menus: List[Dict[str, Any]]) -> None:
@@ -107,11 +159,19 @@ def apply_qc(menus: List[Dict[str, Any]]) -> None:
         items = m.get("items")
         if not isinstance(items, list):
             continue
+
+        # Permanent menus (e.g. fixed à-la-carte PDFs) should not show up in "strict meals only" by default.
+        is_permanent_menu = bool((m.get("meta") or {}).get("permanent") in (True, "true", "True", 1, "1"))
+
         for it in items:
             if not isinstance(it, dict):
                 continue
             text = it.get("text") or it.get("name") or ""
-            it["qc"] = qc_item_text(str(text))
+            qc = qc_item_text(str(text))
+            if is_permanent_menu:
+                qc["isMeal"] = False
+                qc.setdefault("flags", []).append("permanent_menu")
+            it["qc"] = qc
 
 
 def _utc_now_iso() -> str:

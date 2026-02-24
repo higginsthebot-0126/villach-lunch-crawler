@@ -10,6 +10,8 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
+from urllib.parse import urljoin
+
 from .models import DailyMenu, MenuItem
 from .normalize import nonempty, detect_allergens, detect_tags, clean_line
 
@@ -42,6 +44,33 @@ def _html_to_lines(html: bytes) -> List[str]:
     text = soup.get_text("\n")
     lines = nonempty(text.splitlines())
     return lines
+
+
+def find_pdf_link(html: bytes, *, base_url: str, href_re: re.Pattern) -> Optional[str]:
+    """Find a PDF link matching href_re and return an absolute URL.
+
+    Some sites embed PDF.js viewer links (viewer.php?file=...). We prefer *direct* .pdf URLs.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    candidates: List[str] = []
+    for a in soup.find_all("a"):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        if href_re.search(href):
+            candidates.append(urljoin(base_url, href))
+
+    if not candidates:
+        return None
+
+    def score(u: str) -> tuple[int, int]:
+        # lower is better
+        direct = 0 if re.search(r"\.pdf(\?|#|$)", u, re.I) else 1
+        viewer = 1 if "viewer.php" in u else 0
+        return (direct + viewer, len(u))
+
+    candidates.sort(key=score)
+    return candidates[0]
 
 
 def _parse_date(s: str) -> Optional[date]:

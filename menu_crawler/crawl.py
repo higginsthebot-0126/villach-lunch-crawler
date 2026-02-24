@@ -13,6 +13,7 @@ from .extract_html import (
     extract_daily_menus,
     rule_hotel_seven_milo,
     rule_chickis,
+    find_pdf_link,
 )
 from .extract_pdf import extract_menus_from_pdf
 
@@ -31,13 +32,31 @@ def crawl_source(src: Dict[str, Any], *, cache_dir: str | None = None) -> List[D
     if kind == "html":
         if parser == "hotel_seven_milo":
             rule = rule_hotel_seven_milo(url)
-        elif parser == "chickis":
-            rule = rule_chickis(url)
-        else:
-            raise ValueError(f"unknown html parser: {parser}")
+            menus = extract_daily_menus(fr.body, rule)
+            return [asdict(m) for m in menus]
 
-        menus = extract_daily_menus(fr.body, rule)
-        return [asdict(m) for m in menus]
+        if parser == "chickis":
+            rule = rule_chickis(url)
+            menus = extract_daily_menus(fr.body, rule)
+            return [asdict(m) for m in menus]
+
+        if parser == "villacher_brauhof":
+            # Brauhof publishes the current lunch menu as a PDF linked from the page.
+            import re
+
+            pdf_url = find_pdf_link(
+                fr.body,
+                base_url=url,
+                href_re=re.compile(r"Mittagsmen[üu]e.*\.pdf", re.I),
+            )
+            if not pdf_url:
+                raise ValueError("could not find Mittagsmenü PDF link")
+            restaurant = src.get("restaurant", src.get("name", "Villacher Brauhof"))
+            fr_pdf = fetch(pdf_url, cache_dir=cache_dir)
+            menus = extract_menus_from_pdf(fr_pdf.body, restaurant=restaurant, url=pdf_url)
+            return [asdict(m) for m in menus]
+
+        raise ValueError(f"unknown html parser: {parser}")
 
     if kind == "pdf":
         restaurant = src.get("restaurant", "(unknown)")
