@@ -39,5 +39,13 @@ def extract_menus_from_pdf(pdf_bytes: bytes, *, restaurant: str, url: str) -> Li
     snippet = txt[:1200].strip() if txt else ""
     item_txt = snippet if snippet else "(no text extracted: likely scanned PDF; need OCR)"
 
-    mi = MenuItem(text=item_txt, allergens=detect_allergens(item_txt), tags=detect_tags(item_txt))
-    return [DailyMenu(restaurant=restaurant, source_url=url, items=[mi], meta={"note": "pdf parser placeholder"})]
+    tags = detect_tags(item_txt)
+    meta = {"note": "pdf parser placeholder"}
+
+    # Cotidiano PDFs are usually a fixed menu (not a day-by-day lunch menu).
+    if "cotidiano" in (restaurant or "").lower():
+        meta["permanent"] = "true"
+        tags = list(dict.fromkeys([*tags, "permanent"]))
+
+    mi = MenuItem(text=item_txt, allergens=detect_allergens(item_txt), tags=tags)
+    return [DailyMenu(restaurant=restaurant, source_url=url, items=[mi], meta=meta)]

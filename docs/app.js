@@ -5,7 +5,21 @@ function isoDate(d){
 }
 
 function uniqSorted(arr){
-  return Array.from(new Set(arr.filter(Boolean).map(String))).sort((a,b)=>a.localeCompare(b));
+  return Array.from(new Set((arr || []).filter(v => v !== undefined && v !== null && String(v).trim() !== '').map(String)))
+    .sort((a,b)=>a.localeCompare(b));
+}
+
+const NO_DATE = '__nodate__';
+
+function menuDayKey(m){
+  const raw = (m && (m.day || m.date || m.when)) ?? null;
+  if (raw !== undefined && raw !== null && String(raw).trim() !== '') return String(raw);
+  return NO_DATE;
+}
+
+function dayLabelFromKey(k){
+  if (String(k) === NO_DATE) return 'Sans date';
+  return String(k);
 }
 
 function computeDefaultTargetDay(availableDays){
@@ -105,21 +119,21 @@ function render(menus){
   const selected = (daySel && daySel.value) ? daySel.value : SELECTED_DAY;
 
   const visibleMenus = (selected && selected !== 'all')
-    ? menus.filter(m => String(m.day || m.date || m.when || '') === String(selected))
+    ? menus.filter(m => menuDayKey(m) === String(selected))
     : menus;
 
-  const days = uniqSorted(visibleMenus.map(m => m.day || m.date || m.when));
+  const days = uniqSorted(visibleMenus.map(menuDayKey));
   if (days.length === 0){
     app.innerHTML = '<div class="day"><h2>0 résultat</h2><div class="sub">Aucun menu pour le jour sélectionné.</div></div>';
     return;
   }
 
   for (const day of days){
-    const dayMenus = visibleMenus.filter(m => String(m.day || m.date || m.when || '') === String(day));
+    const dayMenus = visibleMenus.filter(m => menuDayKey(m) === String(day));
 
     const dayEl = document.createElement('section');
     dayEl.className = 'day';
-    dayEl.innerHTML = `<h2>${day}</h2>`;
+    dayEl.innerHTML = `<h2>${dayLabelFromKey(day)}</h2>`;
 
     let anyInDay = false;
 
@@ -194,8 +208,13 @@ function initDaySelect(menus){
   const sel = $('#daySelect');
   if (!sel) return;
 
-  const days = uniqSorted((menus || []).map(m => m.day || m.date || m.when));
+  const allKeys = (menus || []).map(menuDayKey);
+  const days = uniqSorted(allKeys.filter(k => k !== NO_DATE));
+  const hasNoDate = allKeys.some(k => k === NO_DATE);
+
   sel.innerHTML = '';
+
+  // Actual dated menus first
   for (const d of days){
     const opt = document.createElement('option');
     opt.value = d;
@@ -203,15 +222,29 @@ function initDaySelect(menus){
     sel.appendChild(opt);
   }
 
-  // Optional "all"
+  // Then menus without a concrete date
+  if (hasNoDate){
+    const optNoDate = document.createElement('option');
+    optNoDate.value = NO_DATE;
+    optNoDate.textContent = 'Sans date';
+    sel.appendChild(optNoDate);
+  }
+
+  // Finally "all"
   const optAll = document.createElement('option');
   optAll.value = 'all';
-  optAll.textContent = 'tous';
+  optAll.textContent = 'Tous';
   sel.appendChild(optAll);
 
   const def = computeDefaultTargetDay(days);
   SELECTED_DAY = def;
-  sel.value = days.includes(def) ? def : (days[0] || 'all');
+  if (days.length){
+    sel.value = days.includes(def) ? def : days[0];
+  } else if (hasNoDate){
+    sel.value = NO_DATE;
+  } else {
+    sel.value = 'all';
+  }
 }
 
 function rerender(){

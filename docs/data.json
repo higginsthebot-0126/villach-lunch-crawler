@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T12:01:40+00:00",
+  "generatedAt": "2026-02-24T12:44:28+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -1447,7 +1447,7 @@
     {
       "restaurant": "Chickis Villach",
       "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
-      "day": null,
+      "day": "2026-02-23",
       "day_label": "MONTAG",
       "items": [
         {
@@ -1482,7 +1482,7 @@
     {
       "restaurant": "Chickis Villach",
       "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
-      "day": null,
+      "day": "2026-02-24",
       "day_label": "DIENSTAG",
       "items": [
         {
@@ -1552,7 +1552,7 @@
     {
       "restaurant": "Chickis Villach",
       "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
-      "day": null,
+      "day": "2026-02-26",
       "day_label": "DONNERSTAG",
       "items": [
         {
@@ -1589,7 +1589,7 @@
     {
       "restaurant": "Chickis Villach",
       "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
-      "day": null,
+      "day": "2026-02-27",
       "day_label": "FREITAG",
       "items": [
         {
@@ -2153,7 +2153,8 @@
             "G"
           ],
           "tags": [
-            "lactose"
+            "lactose",
+            "permanent"
           ],
           "qc": {
             "isNoise": false,
@@ -2163,7 +2164,8 @@
         }
       ],
       "meta": {
-        "note": "pdf parser placeholder"
+        "note": "pdf parser placeholder",
+        "permanent": "true"
       },
       "zone": "zentrum",
       "url_menu": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf",

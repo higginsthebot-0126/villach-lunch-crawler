@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timedelta
 from typing import List, Optional
+
+from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
@@ -44,14 +46,32 @@ def _html_to_lines(html: bytes) -> List[str]:
 
 def _parse_date(s: str) -> Optional[date]:
     try:
-        # Handles 23.02.2026, 23.02., etc.
+        # Handles 23.02.2026, 23.02, etc.
+        # dateutil cannot parse trailing dots like "23.02." → strip them.
+        ss = (s or "").strip()
+        ss = re.sub(r"\.(\s*)$", r"\1", ss)
+        ss = re.sub(r"\.(\s+)(\d{4})$", r" \2", ss)  # "23.02. 2026" -> "23.02 2026"
+
         # dateutil may return datetime *or* date depending on the default passed.
-        dt = dateparser.parse(s, dayfirst=True, fuzzy=True, default=date.today())
+        dt = dateparser.parse(ss, dayfirst=True, fuzzy=True, default=date.today())
         if isinstance(dt, date) and not hasattr(dt, "date"):
             return dt
         return dt.date()  # type: ignore[union-attr]
     except Exception:
         return None
+
+
+def _weekday_label_to_date(day_label: str, *, tz: str = "Europe/Vienna") -> Optional[date]:
+    if not day_label:
+        return None
+    wl = clean_line(day_label).strip().lower()
+    # allow e.g. "MONTAG" or "Montag" etc.
+    if wl not in WEEKDAY_DE:
+        return None
+
+    now_vie = datetime.now(ZoneInfo(tz)).date()
+    monday = now_vie - timedelta(days=now_vie.weekday())  # weekday(): Mon=0..Sun=6
+    return monday + timedelta(days=WEEKDAY_DE.index(wl))
 
 
 def extract_daily_menus(html: bytes, rule: HtmlRule) -> List[DailyMenu]:
@@ -76,6 +96,10 @@ def extract_daily_menus(html: bytes, rule: HtmlRule) -> List[DailyMenu]:
                 d = _parse_date(m.group("date"))
             if "weekday" in m.groupdict() and m.group("weekday"):
                 day_label = clean_line(m.group("weekday"))
+            # Some sources give weekday labels but unusable/ambiguous dates.
+            # If date parsing fails, map weekday -> concrete date for *current* week (Europe/Vienna).
+            if d is None and day_label:
+                d = _weekday_label_to_date(day_label)
             cur = DailyMenu(restaurant=rule.restaurant, source_url=rule.url, day=d, day_label=day_label)
             continue
 
