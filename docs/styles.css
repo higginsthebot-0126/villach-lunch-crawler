@@ -48,7 +48,9 @@ button:hover{filter:brightness(1.06)}
 
 .items{display:grid; gap:8px}
 .item{padding:10px; border-radius:12px; background:rgba(0,0,0,0.20); border:1px solid rgba(255,255,255,0.07)}
+.item.noise{opacity:0.62}
 .item .name{font-size:14px; line-height:1.25}
+.item .qc{margin-top:6px; font-size:11px; color:var(--muted)}
 .item .tags{margin-top:6px; display:flex; gap:8px; flex-wrap:wrap}
 .tag{font-size:12px; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,0.12)}
 .tag.ok{color:var(--ok); border-color:rgba(37,192,109,0.35)}

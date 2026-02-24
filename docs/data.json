@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T11:36:18+00:00",
+  "generatedAt": "2026-02-24T11:47:59+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -103,25 +103,51 @@
           "text": "Bunte Salatschüssel",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Cocktaildressing",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Schweinerückensteak",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Letscho / Rosmarinkartoffeln / Kräuterschaum",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -140,25 +166,49 @@
           "text": "Räucherlachs-Crostini",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Gurken / Kräutermayonnaise",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Gefüllte Hühnerbrust",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Naturreis / glasiertes Gemüse / Landfrischkäse",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -177,13 +227,25 @@
           "text": "Cremesuppe von der Petersilienwurzel",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Geschmorte Rinderschulter",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Herzoginkartoffeln / Schmorgemüse / Sauerrahm",
@@ -193,7 +255,12 @@
           ],
           "tags": [
             "lactose"
-          ]
+          ],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -212,25 +279,49 @@
           "text": "Karottencremesuppe",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Orange / Fenchel",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Gegrillte Putenmedaillons",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Kroketten / Fisolen / Pfefferrahmsauce",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -249,523 +340,1060 @@
           "text": "Gegrillte Lachsforelle",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Dillrisotto / marinierte Gurken",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Riz au Lait",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Zimt / Erdbeere",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Speisekarte ansehen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Dessertkarte ansehen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "FRÜHSTÜCK-Buffet",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Freuen Sie sich auf ein reichhaltiges Frühstücksbuffet, mit Produkten ausgewählter Produzenten, aus der Region Villach und Umgebung!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "All you can eat | € 24,90 (Kinder bis 6-12 Jahre € 12,90, 3-6 Jahre € 9,90)",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Barkarte ansehen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Frühstückskarte ansehen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "FRÜHSTÜCK à la carte",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Von Montag bis Freitag von 6.30 Uhr bis 10.30 Uhr sowie wochenends von 7.00 Uhr bis 11.00 Uhr bieten wir unseren Gästen die Möglichkeit auch à la carte zu frühstücken.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Die Frühstückskarte enthält ein breites Angebot für jeden Gusto!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Entscheiden Sie sich für Ihr Lieblingsfrühstück – klassisch, gesund oder herzhaft – und bestellen Sie ganz nach Wunsch Eierspeisen wie Omelette oder Rührei.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Genießen Sie Ihr Frühstück in entspannter Atmosphäre, ganz nach Ihrer persönlichen Wahl und lassen Sie sich von unserem Serviceteam verwöhnen.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Milo Restaurant",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Sonnige Terrasse",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Gratis Parkplätze",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Moderne, regionale á la carte Küche",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Mittagsmenüs",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Weihnachtsfeiern / Hochzeitsfeiern / Geburtstagsfeiern",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Seminare",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Bar",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Wir treffen uns im „Milo“!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Öffnungszeiten und Reservierungen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:reservierung"
+            ]
+          }
         },
         {
           "text": "Frühstücksbuffet",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "und",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "á la carte Frühstück",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Montag bis Freitag von 06:30 bis 10:30 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Samstag, Sonntag und feiertags von 07:00 bis 11:00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Milo Restaurant",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "– Küche bis 22:00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Milo Bar",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "– bis 24:00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Reserviere deinen Tisch im Milo",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "+43 4242 37 000 – 703",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "restaurant@hotel-seven.at",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_email"
+            ]
+          }
         },
         {
           "text": "Öffnungszeiten",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:öffnungszeiten"
+            ]
+          }
         },
         {
           "text": "Rezeption:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "MO-SO von 06:30 bis 23:00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Im Falle einer Spätanreise bitten wir unsere Gäste sich am Anreisetag mit uns telefonisch unter",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:telefon"
+            ]
+          }
         },
         {
           "text": "+43 4242 37 000",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "in Verbindung zu setzten.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Frühstück:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "MO-FR von 06:30 bis 10:30 Uhr | SA+SO+FEIERTAGS von 07:00 bis 11:00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Restaurant:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "MO-SO von 11:30 bis 21:30 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Hotelbar:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "MO-SO von 6.30 bis 24.00 Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Abonniere unseren Newsletter",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:newsletter"
+            ]
+          }
         },
         {
           "text": "Bitte dieses Feld leer lassen",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Mit unserem Seven-Newsletter erhalten Sie die besten Angebote, aktuelle Neuigkeiten und Gutschein-Aktionen, oder den Milo Restaurant Wochenmenüplan direkt in Ihr Postfach.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:newsletter"
+            ]
+          }
         },
         {
           "text": "Vorname",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Nachname",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Liste(n) auswählen:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Milo Mittagsmenüs",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Seven-News",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "E-Mail",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Ich bin mit der Verarbeitung und Speicherung meiner persönlichen Daten einverstanden.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Lesen Sie unsere Datenschutzerklärung.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:datenschutz"
+            ]
+          }
         },
         {
           "text": "Prüfe deinen Posteingang oder Spam-Ordner, um dein Abonnement zu bestätigen.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "HOTEL SEVEN",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "… für Urlauber, Reisegruppen und Geschäftsreisende, die nach Villach kommen und die wunderschöne Kärntner Seenregion für sich entdecken möchten.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Neueste Beiträge",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Valentins-Special 2026",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "12. Januar 2026",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Silvester feiern im Milo 2025",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "8. Dezember 2025",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Weihnachten feiern im Milo",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "17. November 2025",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Gansl- und Wildzeit im Milo",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "24. Oktober 2025",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Kontakt",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:kontakt"
+            ]
+          }
         },
         {
           "text": "info@hotel-seven.at",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_email"
+            ]
+          }
         },
         {
           "text": "+43 4242 37 000",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "Kleinsattelstraße 2, 9500 Villach",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Facebook",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:facebook"
+            ]
+          }
         },
         {
           "text": "Google",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "E-Mail-Adresse",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:adresse"
+            ]
+          }
         },
         {
           "text": "© 2022 HOTEL SEVEN",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "copyright"
+            ]
+          }
         },
         {
           "text": "Kontakt",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:kontakt"
+            ]
+          }
         },
         {
           "text": "Impressum",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:impressum"
+            ]
+          }
         },
         {
           "text": "Datenschutzerklärung",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:datenschutz"
+            ]
+          }
         },
         {
           "text": "Menü",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.2,
+            "flags": [
+              "ui_fragment"
+            ]
+          }
         },
         {
           "text": "Diese Website verwendet Cookies, um Ihre Erfahrungen zu verbessern. Wenn Sie diese Website weiterhin nutzen, sind Sie damit einverstanden.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:cookie"
+            ]
+          }
         },
         {
           "text": "Datenschutzerklärung",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:datenschutz"
+            ]
+          }
         }
       ],
       "meta": {},
@@ -784,13 +1412,23 @@
           "text": "Chickis Hühnersuppe mit Nudeln",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Pulled Chicken Burger / Wedges",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -809,31 +1447,58 @@
           "text": "Kleiner grüner Salat",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Offenkartoffel mit gegrillte Hendlstreifen / Sauerrahmdip / Kräuter",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "MITWOCH, 25.02.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Chickis Hühnersuppe mit Nudeln",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Deluxe Wrap / Pommes",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {},
@@ -852,13 +1517,25 @@
           "text": "Gebackene Unterkeule / Kartoffelsalat",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Süße Überraschung",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         }
       ],
       "meta": {},
@@ -877,7 +1554,12 @@
           "text": "Kleiner gemischter Salat",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Spaghetti Napoletana / Parmesan",
@@ -887,253 +1569,527 @@
           ],
           "tags": [
             "lactose"
-          ]
+          ],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "CHICKIS BESTELLEN – ABHOLEN – GENIEßEN!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Alle Chickis Speisen und Getränke kannst du auch gerne telefonisch bestellen, abholen und mitnehmen!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:telefon"
+            ]
+          }
         },
         {
           "text": "04242 25 200",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "Mein Menüpass",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Der „Chickis-Menüpass“ verbilligt den Mittagsgenuss!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Bei 10 Menüs ist das 11. Menü gratis!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Alle Produkte sind auch Glutenfrei erhältlich!",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Glutenfreie Produkte",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Februar 2026",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "« Feb.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "CHICKIS – weil´s schmeckt.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Chickis Villach",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Hauptplatz 19",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "9500 Villach / Austria",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Tel.: +43 4242 25 200",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "Chickis Lienz",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Albin Egger Straße 5",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "9900 Lienz",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Tel.: +43 4852 65270",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "has_phone"
+            ]
+          }
         },
         {
           "text": "Öffnungszeiten:",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:öffnungszeiten"
+            ]
+          }
         },
         {
           "text": "Villach",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": ", Hauptplatz 19",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Täglich",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "von",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "09:00",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "bis",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "21:00",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Lienz,",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Albin Egger Straße 5",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         },
         {
           "text": "Täglich",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "von",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "10:00",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "bis",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "19:00",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "Uhr",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.7,
+            "flags": [
+              "short"
+            ]
+          }
         },
         {
           "text": "© 2025 All rights reserved. Chickis – Weil´s schmeckt",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "copyright"
+            ]
+          }
         },
         {
           "text": "Impressum",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:impressum"
+            ]
+          }
         },
         {
           "text": "Datenschutzerklärung",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:datenschutz"
+            ]
+          }
         },
         {
           "text": "Menü",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.2,
+            "flags": [
+              "ui_fragment"
+            ]
+          }
         },
         {
           "text": "Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie diese Website weiter nutzen, erklären Sie sich damit einverstanden.",
           "course": null,
           "allergens": [],
-          "tags": []
+          "tags": [],
+          "qc": {
+            "isNoise": true,
+            "confidence": 0.05,
+            "flags": [
+              "stopword:cookie"
+            ]
+          }
         }
       ],
       "meta": {},
@@ -1156,7 +2112,12 @@
           ],
           "tags": [
             "lactose"
-          ]
+          ],
+          "qc": {
+            "isNoise": false,
+            "confidence": 0.9,
+            "flags": []
+          }
         }
       ],
       "meta": {
