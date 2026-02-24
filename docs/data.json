@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T11:47:59+00:00",
+  "generatedAt": "2026-02-24T12:01:40+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -36,6 +36,48 @@
       "zone": "zentrum",
       "url_menu": "https://losteria.net/at/restaurants/restaurant/villach/",
       "source": "website"
+    },
+    {
+      "name": "Restaurant LAGANA (voco Villach)",
+      "zone": "zentrum",
+      "url_menu": "https://villach.vocohotels.com/data/Speisekarte_Lagana_ab120122_DE_.pdf",
+      "source": "pdf"
+    },
+    {
+      "name": "Villacher Paragraf",
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.villacher-paragraf.at/kulinarik/",
+      "source": "website"
+    },
+    {
+      "name": "Stern (Hans-Gasser-Platz)",
+      "zone": "zentrum",
+      "url_menu": "https://stern-villach.jimdofree.com/hans-gasser-platz/menu-speisekarten/",
+      "source": "website"
+    },
+    {
+      "name": "Imbisse Hanschur",
+      "zone": "zentrum",
+      "url_menu": "https://www.hanschur.at/fileadmin/user_upload/menueplan_09-2026.pdf",
+      "source": "pdf"
+    },
+    {
+      "name": "Konditorei Restaurant Rainer",
+      "zone": "zentrum",
+      "url_menu": "https://www.konditorei-rainer-restaurant.at/mittagstisch",
+      "source": "website"
+    },
+    {
+      "name": "Moser's Nudelküche",
+      "zone": "zentrum",
+      "url_menu": "https://www.dienudelkuchl.at/",
+      "source": "website"
+    },
+    {
+      "name": "Ammu’s Greißlerei – Curry & Cook",
+      "zone": "zentrum",
+      "url_menu": "https://www.facebook.com/p/Ammus-Grei%C3%9Flerei-Curry-Cook-100068925638053/",
+      "source": "social"
     },
     {
       "name": "McDonald's (Villach)",
