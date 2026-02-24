@@ -35,14 +35,15 @@ function computeDefaultTargetDay(availableDays){
 
   const h = now.getHours();
   const m = now.getMinutes();
-  const before1030 = (h < 10) || (h === 10 && m < 30);
+  // rule: before 13:30 -> today; after 13:30 -> tomorrow; Friday after 13:30 -> Monday
+  const before1330 = (h < 13) || (h === 13 && m < 30);
 
   let target = new Date(now);
 
-  if (before1030){
-    // today noon
+  if (before1330){
+    // avant 13:30 → aujourd’hui
   } else {
-    // after 10:30 -> tomorrow noon; Friday after 10:30 -> Monday
+    // après 13:30 → demain ; vendredi après 13:30 → lundi
     if (dow === 5){
       target = addDays(target, 3);
     } else {
