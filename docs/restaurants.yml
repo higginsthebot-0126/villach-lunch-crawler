@@ -1,0 +1,97 @@
+# Villach Lunch Crawler — restaurant directory
+# Conventions:
+# - zone: zentrum | zentrum-gare | atrio
+# - url_menu: official menu channel (restaurant website, PDF, or official ordering/menu page)
+# - source: website | pdf | order | chain
+# - crawl: optional; only add when we have a stable source + parser
+
+restaurants:
+  # Zentrum (Villach)
+  - name: Restaurant Milo (Hotel Seven)
+    zone: zentrum
+    url_menu: https://www.hotel-seven.at/speisekarte-mittagsmenues/
+    source: website
+    crawl:
+      kind: html
+      url: https://www.hotel-seven.at/speisekarte-mittagsmenues/
+      parser: hotel_seven_milo
+
+  - name: Chickis Villach
+    zone: zentrum
+    url_menu: https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/
+    source: website
+    crawl:
+      kind: html
+      url: https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/
+      parser: chickis
+
+  - name: Cotidiano Villach Hauptplatz
+    zone: zentrum
+    # Cotidiano publishes menus as PDFs on their official site (example PDF).
+    url_menu: https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf
+    source: pdf
+    crawl:
+      kind: pdf
+      url: https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf
+
+  - name: Parkcafé Villach
+    zone: zentrum
+    url_menu: https://www.parkcafe.at/uploads/UxJTAWLK/PARKCAFE-SPEISEKARTE-MAI-2025.pdf
+    source: pdf
+
+  - name: THE WOK (Parkhotel Villach)
+    zone: zentrum
+    url_menu: https://www.thewok.at/the-wok/
+    source: website
+
+  - name: L'Osteria Villach
+    zone: zentrum
+    url_menu: https://losteria.net/at/restaurants/restaurant/villach/
+    source: website
+
+  # Zentrum ↔ Gare (corridor / chains with official menus)
+  - name: McDonald's (Villach)
+    zone: zentrum-gare
+    url_menu: https://www.mcdonalds.at/produkte
+    source: chain
+
+  - name: BURGER KING (Villach)
+    zone: zentrum-gare
+    url_menu: https://www.burgerking.at/menu
+    source: chain
+
+  - name: Subway (Villach)
+    zone: zentrum-gare
+    url_menu: https://www.subway.com/de-AT/MenuNutrition/Menu
+    source: chain
+
+  # ATRIO Villach (shopping center)
+  - name: INTERSPAR-Restaurant Villach, ATRIO
+    zone: atrio
+    url_menu: https://www.interspar.at/standorte/interspar-restaurant-villach-atrio
+    source: website
+
+  - name: Dunkin' (ATRIO Villach)
+    zone: atrio
+    url_menu: https://www.dunkin.at
+    source: chain
+
+  - name: my Indigo (ATRIO Villach)
+    zone: atrio
+    url_menu: https://shop.myindigo.com/shop/#/menuservice
+    source: order
+
+  - name: EAT HAPPY (ATRIO Villach)
+    zone: atrio
+    url_menu: https://www.eathappy.at/produkte/
+    source: website
+
+  - name: Running Sushi (ATRIO Villach)
+    zone: atrio
+    url_menu: https://www.fulinrunningsushi-villach.at/
+    source: order
+
+  - name: MARTIN AUER (ATRIO Villach)
+    zone: atrio
+    url_menu: https://www.martinauer.at/
+    source: website

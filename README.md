@@ -43,6 +43,14 @@ pip install -r requirements.txt
 python -m menu_crawler.crawl --config sources.example.yml --out out.json
 ```
 
+### Générer la page GitHub Pages (manuel)
+
+Le front-end lit `docs/data.json`.
+
+```bash
+python -m menu_crawler.build_docs --restaurants docs/restaurants.yml --out docs/data.json
+```
+
 Le JSON contient des entrées normalisées (restaurant, date/jour, items, tags, allergènes détectés).
 
 ## Stratégie d’extraction (recommandée)

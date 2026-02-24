@@ -10,9 +10,23 @@
   <header class="top">
     <h1>Menus déjeuner — Villach</h1>
     <div class="sub">Prototype: agrège quelques sources et tagge <strong>lactose</strong> + <strong>curry</strong>.</div>
+
     <div class="actions">
       <button id="reload">Recharger</button>
       <span id="status" class="status"></span>
+    </div>
+
+    <div class="filters" id="filters">
+      <label>Zone
+        <select id="zone">
+          <option value="all">toutes</option>
+          <option value="zentrum">centre</option>
+          <option value="zentrum-gare">centre ↔ gare</option>
+          <option value="atrio">ATRIO</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="onlyCurry" /> curry</label>
+      <label><input type="checkbox" id="avoidLactose" /> éviter lactose</label>
     </div>
   </header>
 

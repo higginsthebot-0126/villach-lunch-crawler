@@ -1,0 +1,1172 @@
+{
+  "generatedAt": "2026-02-24T11:36:18+00:00",
+  "restaurants": [
+    {
+      "name": "Restaurant Milo (Hotel Seven)",
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "website"
+    },
+    {
+      "name": "Chickis Villach",
+      "zone": "zentrum",
+      "url_menu": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "source": "website"
+    },
+    {
+      "name": "Cotidiano Villach Hauptplatz",
+      "zone": "zentrum",
+      "url_menu": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf",
+      "source": "pdf"
+    },
+    {
+      "name": "Parkcafé Villach",
+      "zone": "zentrum",
+      "url_menu": "https://www.parkcafe.at/uploads/UxJTAWLK/PARKCAFE-SPEISEKARTE-MAI-2025.pdf",
+      "source": "pdf"
+    },
+    {
+      "name": "THE WOK (Parkhotel Villach)",
+      "zone": "zentrum",
+      "url_menu": "https://www.thewok.at/the-wok/",
+      "source": "website"
+    },
+    {
+      "name": "L'Osteria Villach",
+      "zone": "zentrum",
+      "url_menu": "https://losteria.net/at/restaurants/restaurant/villach/",
+      "source": "website"
+    },
+    {
+      "name": "McDonald's (Villach)",
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.mcdonalds.at/produkte",
+      "source": "chain"
+    },
+    {
+      "name": "BURGER KING (Villach)",
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.burgerking.at/menu",
+      "source": "chain"
+    },
+    {
+      "name": "Subway (Villach)",
+      "zone": "zentrum-gare",
+      "url_menu": "https://www.subway.com/de-AT/MenuNutrition/Menu",
+      "source": "chain"
+    },
+    {
+      "name": "INTERSPAR-Restaurant Villach, ATRIO",
+      "zone": "atrio",
+      "url_menu": "https://www.interspar.at/standorte/interspar-restaurant-villach-atrio",
+      "source": "website"
+    },
+    {
+      "name": "Dunkin' (ATRIO Villach)",
+      "zone": "atrio",
+      "url_menu": "https://www.dunkin.at",
+      "source": "chain"
+    },
+    {
+      "name": "my Indigo (ATRIO Villach)",
+      "zone": "atrio",
+      "url_menu": "https://shop.myindigo.com/shop/#/menuservice",
+      "source": "order"
+    },
+    {
+      "name": "EAT HAPPY (ATRIO Villach)",
+      "zone": "atrio",
+      "url_menu": "https://www.eathappy.at/produkte/",
+      "source": "website"
+    },
+    {
+      "name": "Running Sushi (ATRIO Villach)",
+      "zone": "atrio",
+      "url_menu": "https://www.fulinrunningsushi-villach.at/",
+      "source": "order"
+    },
+    {
+      "name": "MARTIN AUER (ATRIO Villach)",
+      "zone": "atrio",
+      "url_menu": "https://www.martinauer.at/",
+      "source": "website"
+    }
+  ],
+  "menus": [
+    {
+      "restaurant": "Restaurant Milo (Hotel Seven)",
+      "source_url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "day": "2026-02-23",
+      "day_label": "Montag",
+      "items": [
+        {
+          "text": "Bunte Salatschüssel",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Cocktaildressing",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Schweinerückensteak",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Letscho / Rosmarinkartoffeln / Kräuterschaum",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "Restaurant Milo (Hotel Seven)",
+      "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/"
+    },
+    {
+      "restaurant": "Restaurant Milo (Hotel Seven)",
+      "source_url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "day": "2026-02-24",
+      "day_label": "Dienstag",
+      "items": [
+        {
+          "text": "Räucherlachs-Crostini",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Gurken / Kräutermayonnaise",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Gefüllte Hühnerbrust",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Naturreis / glasiertes Gemüse / Landfrischkäse",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "Restaurant Milo (Hotel Seven)",
+      "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/"
+    },
+    {
+      "restaurant": "Restaurant Milo (Hotel Seven)",
+      "source_url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "day": "2026-02-25",
+      "day_label": "Mittwoch",
+      "items": [
+        {
+          "text": "Cremesuppe von der Petersilienwurzel",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Geschmorte Rinderschulter",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Herzoginkartoffeln / Schmorgemüse / Sauerrahm",
+          "course": null,
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ]
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "Restaurant Milo (Hotel Seven)",
+      "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/"
+    },
+    {
+      "restaurant": "Restaurant Milo (Hotel Seven)",
+      "source_url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "day": "2026-02-26",
+      "day_label": "Donnerstag",
+      "items": [
+        {
+          "text": "Karottencremesuppe",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Orange / Fenchel",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Gegrillte Putenmedaillons",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Kroketten / Fisolen / Pfefferrahmsauce",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "Restaurant Milo (Hotel Seven)",
+      "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/"
+    },
+    {
+      "restaurant": "Restaurant Milo (Hotel Seven)",
+      "source_url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "day": "2026-02-27",
+      "day_label": "Freitag",
+      "items": [
+        {
+          "text": "Gegrillte Lachsforelle",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Dillrisotto / marinierte Gurken",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Riz au Lait",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Zimt / Erdbeere",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Speisekarte ansehen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Dessertkarte ansehen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "FRÜHSTÜCK-Buffet",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Freuen Sie sich auf ein reichhaltiges Frühstücksbuffet, mit Produkten ausgewählter Produzenten, aus der Region Villach und Umgebung!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "All you can eat | € 24,90 (Kinder bis 6-12 Jahre € 12,90, 3-6 Jahre € 9,90)",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Barkarte ansehen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Frühstückskarte ansehen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "FRÜHSTÜCK à la carte",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Von Montag bis Freitag von 6.30 Uhr bis 10.30 Uhr sowie wochenends von 7.00 Uhr bis 11.00 Uhr bieten wir unseren Gästen die Möglichkeit auch à la carte zu frühstücken.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Die Frühstückskarte enthält ein breites Angebot für jeden Gusto!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Entscheiden Sie sich für Ihr Lieblingsfrühstück – klassisch, gesund oder herzhaft – und bestellen Sie ganz nach Wunsch Eierspeisen wie Omelette oder Rührei.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Genießen Sie Ihr Frühstück in entspannter Atmosphäre, ganz nach Ihrer persönlichen Wahl und lassen Sie sich von unserem Serviceteam verwöhnen.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Milo Restaurant",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Sonnige Terrasse",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Gratis Parkplätze",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Moderne, regionale á la carte Küche",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Mittagsmenüs",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Weihnachtsfeiern / Hochzeitsfeiern / Geburtstagsfeiern",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Seminare",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Bar",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Wir treffen uns im „Milo“!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Öffnungszeiten und Reservierungen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Frühstücksbuffet",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "und",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "á la carte Frühstück",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Montag bis Freitag von 06:30 bis 10:30 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Samstag, Sonntag und feiertags von 07:00 bis 11:00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Milo Restaurant",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "– Küche bis 22:00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Milo Bar",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "– bis 24:00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Reserviere deinen Tisch im Milo",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "+43 4242 37 000 – 703",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "restaurant@hotel-seven.at",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Öffnungszeiten",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Rezeption:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "MO-SO von 06:30 bis 23:00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Im Falle einer Spätanreise bitten wir unsere Gäste sich am Anreisetag mit uns telefonisch unter",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "+43 4242 37 000",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "in Verbindung zu setzten.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Frühstück:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "MO-FR von 06:30 bis 10:30 Uhr | SA+SO+FEIERTAGS von 07:00 bis 11:00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Restaurant:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "MO-SO von 11:30 bis 21:30 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Hotelbar:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "MO-SO von 6.30 bis 24.00 Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Abonniere unseren Newsletter",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Bitte dieses Feld leer lassen",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Mit unserem Seven-Newsletter erhalten Sie die besten Angebote, aktuelle Neuigkeiten und Gutschein-Aktionen, oder den Milo Restaurant Wochenmenüplan direkt in Ihr Postfach.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Vorname",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Nachname",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Liste(n) auswählen:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Milo Mittagsmenüs",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Seven-News",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "E-Mail",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Ich bin mit der Verarbeitung und Speicherung meiner persönlichen Daten einverstanden.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Lesen Sie unsere Datenschutzerklärung.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Prüfe deinen Posteingang oder Spam-Ordner, um dein Abonnement zu bestätigen.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "HOTEL SEVEN",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "… für Urlauber, Reisegruppen und Geschäftsreisende, die nach Villach kommen und die wunderschöne Kärntner Seenregion für sich entdecken möchten.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Neueste Beiträge",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Valentins-Special 2026",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "12. Januar 2026",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Silvester feiern im Milo 2025",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "8. Dezember 2025",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Weihnachten feiern im Milo",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "17. November 2025",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Gansl- und Wildzeit im Milo",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "24. Oktober 2025",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Kontakt",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "info@hotel-seven.at",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "+43 4242 37 000",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Kleinsattelstraße 2, 9500 Villach",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Facebook",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Google",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "E-Mail-Adresse",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "© 2022 HOTEL SEVEN",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Kontakt",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Impressum",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Menü",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Diese Website verwendet Cookies, um Ihre Erfahrungen zu verbessern. Wenn Sie diese Website weiterhin nutzen, sind Sie damit einverstanden.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.hotel-seven.at/speisekarte-mittagsmenues/",
+      "source": "Restaurant Milo (Hotel Seven)",
+      "url": "https://www.hotel-seven.at/speisekarte-mittagsmenues/"
+    },
+    {
+      "restaurant": "Chickis Villach",
+      "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "day": null,
+      "day_label": "MONTAG",
+      "items": [
+        {
+          "text": "Chickis Hühnersuppe mit Nudeln",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Pulled Chicken Burger / Wedges",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "source": "Chickis Villach",
+      "url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/"
+    },
+    {
+      "restaurant": "Chickis Villach",
+      "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "day": null,
+      "day_label": "DIENSTAG",
+      "items": [
+        {
+          "text": "Kleiner grüner Salat",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Offenkartoffel mit gegrillte Hendlstreifen / Sauerrahmdip / Kräuter",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "MITWOCH, 25.02.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Chickis Hühnersuppe mit Nudeln",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Deluxe Wrap / Pommes",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "source": "Chickis Villach",
+      "url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/"
+    },
+    {
+      "restaurant": "Chickis Villach",
+      "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "day": null,
+      "day_label": "DONNERSTAG",
+      "items": [
+        {
+          "text": "Gebackene Unterkeule / Kartoffelsalat",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Süße Überraschung",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "source": "Chickis Villach",
+      "url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/"
+    },
+    {
+      "restaurant": "Chickis Villach",
+      "source_url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "day": null,
+      "day_label": "FREITAG",
+      "items": [
+        {
+          "text": "Kleiner gemischter Salat",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Spaghetti Napoletana / Parmesan",
+          "course": null,
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ]
+        },
+        {
+          "text": "CHICKIS BESTELLEN – ABHOLEN – GENIEßEN!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Alle Chickis Speisen und Getränke kannst du auch gerne telefonisch bestellen, abholen und mitnehmen!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "04242 25 200",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Mein Menüpass",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Der „Chickis-Menüpass“ verbilligt den Mittagsgenuss!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Bei 10 Menüs ist das 11. Menü gratis!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Alle Produkte sind auch Glutenfrei erhältlich!",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Glutenfreie Produkte",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Februar 2026",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "« Feb.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "CHICKIS – weil´s schmeckt.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Chickis Villach",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Hauptplatz 19",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "9500 Villach / Austria",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Tel.: +43 4242 25 200",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Chickis Lienz",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Albin Egger Straße 5",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "9900 Lienz",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Tel.: +43 4852 65270",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Öffnungszeiten:",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Villach",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": ", Hauptplatz 19",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Täglich",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "von",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "09:00",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "bis",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "21:00",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Lienz,",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Albin Egger Straße 5",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Täglich",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "von",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "10:00",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "bis",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "19:00",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Uhr",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "© 2025 All rights reserved. Chickis – Weil´s schmeckt",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Impressum",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Menü",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        },
+        {
+          "text": "Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie diese Website weiter nutzen, erklären Sie sich damit einverstanden.",
+          "course": null,
+          "allergens": [],
+          "tags": []
+        }
+      ],
+      "meta": {},
+      "zone": "zentrum",
+      "url_menu": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/",
+      "source": "Chickis Villach",
+      "url": "https://www.chickis.at/chickis-mittagsmenue-schnell-gut-guenstig/"
+    },
+    {
+      "restaurant": "Cotidiano Villach Hauptplatz",
+      "source_url": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf",
+      "day": null,
+      "day_label": null,
+      "items": [
+        {
+          "text": "BREAKFAST – LUNCH – DINNER\nSPEISEN\nSCHÖN, DASS DU BEI UNS BIST!\nFrühstück, Lunch oder Dinner - bei uns genießt du morgens, mit-\ntags und abends deine Lieblingsgerichte. Vom ersten Kaffee am\nMorgen über frische Bowls und knackige Salate bis hin zu herz-\nhaften Burgern und Crispy Fries – wir bieten dir eine vielfältige\nAuswahl an gesunden und köstlichen Speisen.\nUnser modernes, einladendes Ambiente macht Cotidiano zum\nperfekten Treffpunkt – ob mit Familie, Freunden oder Geschäfts-\npartnern.\nEgal ob herzhaft oder leicht, vegetarisch oder vegan – hier ist für\njeden Geschmack etwas dabei.\nProduktqualität und Leidenschaft stehen bei uns an erster Stelle,\ndenn was uns antreibt, ist unser großes Herzblut:\nFür gutes Essen und eine schöne Zeit.\nQUALITÄT IST UNS WICHTIG\nEine Vielzahl unserer Speisen und Getränke sind\nhausgemacht und werden täglich frisch für dich zubereitet.\nZudem verwenden wir:\nAusschließlich Eier in Bio-Qualität\nAusschließlich Milch in Bio-Qualität\nAusschließlich Agavendicksaft in Bio-Qualität\nBuns nach eigener Rezeptur\nCotidiano Signature Produkte\nFür unser Bio- und Öko-Sortiment sind wir zertifiziert\ndurch die DE-ÖKO-006 Kontrollstelle.\nvegetarisch vegan | laktosefrei Rez",
+          "course": null,
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ]
+        }
+      ],
+      "meta": {
+        "note": "pdf parser placeholder"
+      },
+      "zone": "zentrum",
+      "url_menu": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf",
+      "source": "Cotidiano Villach Hauptplatz",
+      "url": "https://www.cotidiano.de/_files/ugd/ace4c0_7aa95331c4504201a522005db651e408.pdf"
+    }
+  ],
+  "errors": []
+}

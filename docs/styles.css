@@ -22,6 +22,11 @@ body{
 h1{margin:0 0 6px 0; font-size:20px}
 .sub{color:var(--muted); font-size:13px}
 .actions{margin-top:10px; display:flex; gap:10px; align-items:center}
+
+.filters{margin-top:10px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; color:var(--muted); font-size:13px}
+.filters label{display:flex; gap:8px; align-items:center}
+.filters select{padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,0.14); background:rgba(255,255,255,0.08); color:var(--text)}
+
 button{
   padding:8px 12px; border-radius:10px; border:1px solid rgba(255,255,255,0.14);
   background:rgba(255,255,255,0.08); color:var(--text); cursor:pointer;
