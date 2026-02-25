@@ -4,13 +4,16 @@ import re
 from typing import Iterable, List
 
 LACTOSE_KEYWORDS = [
+    # Keep some boundaries for common standalone words…
     r"\bmilch\b",
-    r"\bka?e?se\b",  # käse/kaese
-    r"\bparmesan\b",
-    r"\brahm\b",
-    r"\bsauerrahm\b",
-    r"\bfrischk(a|ä)se\b",
     r"\bbutter\b",
+    r"\bparmesan\b",
+
+    # …but allow German compounds (Rahmsauce, Käsespätzle, Frischkäsetorte, etc.)
+    r"(?:kaese|käse)",
+    r"frischk(?:a|ä)se",
+    r"sauerrahm",
+    r"rahm",
 ]
 
 CURRY_KEYWORDS = [r"\bcurry\b"]

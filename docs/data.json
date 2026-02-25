@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-25T12:29:27+00:00",
+  "generatedAt": "2026-02-25T17:20:10+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -269,8 +269,12 @@
         {
           "text": "Naturreis / glasiertes Gemüse / Landfrischkäse",
           "course": null,
-          "allergens": [],
-          "tags": [],
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ],
           "qc": {
             "isNoise": false,
             "isMeal": true,
@@ -389,8 +393,12 @@
         {
           "text": "Kroketten / Fisolen / Pfefferrahmsauce",
           "course": null,
-          "allergens": [],
-          "tags": [],
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ],
           "qc": {
             "isNoise": false,
             "isMeal": true,
@@ -1638,8 +1646,12 @@
         {
           "text": "Offenkartoffel mit gegrillte Hendlstreifen / Sauerrahmdip / Kräuter",
           "course": null,
-          "allergens": [],
-          "tags": [],
+          "allergens": [
+            "G"
+          ],
+          "tags": [
+            "lactose"
+          ],
           "qc": {
             "isNoise": false,
             "isMeal": true,
