@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T15:33:19+00:00",
+  "generatedAt": "2026-02-25T12:29:27+00:00",
   "restaurants": [
     {
       "name": "Restaurant Milo (Hotel Seven)",
@@ -84,6 +84,12 @@
       "zone": "zentrum",
       "url_menu": "https://www.dienudelkuchl.at/",
       "source": "website"
+    },
+    {
+      "name": "Tandoori Delight Villach",
+      "zone": "zentrum",
+      "url_menu": "https://tandoori-delight.at/files/tandoori-speisekarte-a4-12-seiten-mailv.pdf",
+      "source": "pdf"
     },
     {
       "name": "Ammu’s Greißlerei – Curry & Cook",

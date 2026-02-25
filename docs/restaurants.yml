@@ -94,6 +94,13 @@ restaurants:
     url_menu: https://www.dienudelkuchl.at/
     source: website
 
+  - name: Tandoori Delight Villach
+    zone: zentrum
+    # Official website (locations Klagenfurt + Villach). Menu PDF is published on the official domain.
+    url_menu: https://tandoori-delight.at/files/tandoori-speisekarte-a4-12-seiten-mailv.pdf
+    source: pdf
+    crawl: false
+
   - name: Ammu’s Greißlerei – Curry & Cook
     zone: zentrum
     url_menu: https://www.facebook.com/p/Ammus-Grei%C3%9Flerei-Curry-Cook-100068925638053/
